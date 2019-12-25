@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/schedule/schedule",
+    "pages/repairs/repairs",
+    "pages/shop/shop",
+    "pages/stores/stores",
+    "pages/home/home",
+    "pages/login/login",
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#adc9fd",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/imgs/首页未.png",
+        "selectedIconPath": "static/imgs/首页.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "门店管理",
+        "iconPath": "static/imgs/门店未.png",
+        "selectedIconPath": "static/imgs/门店.png"
+      },
+      {
+        "pagePath": "pages/repairs/repairs",
+        "text": "报修管理",
+        "iconPath": "static/imgs/报修未.png",
+        "selectedIconPath": "static/imgs/报修.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "static/imgs/个人中心未.png",
+        "selectedIconPath": "static/imgs/个人中心.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

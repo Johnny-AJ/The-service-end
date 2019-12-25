@@ -1,0 +1,74 @@
+<!--pages/shop/shop.wxml-->
+<!-- <text>pages/shop/shop.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">美宜佳天猫旗舰店</view>
+      <view class="b2">￥395.34</view>
+    </view>
+
+    <view class="nax">
+      <view class="nax_l">
+        <view class="x1">商品：23</view>
+        <view class="x2">广州市天河区...</view>
+      </view>
+      <view class="nax_r">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">美宜佳天猫旗舰店</view>
+      <view class="b2">￥395.34</view>
+    </view>
+
+    <view class="nax">
+      <view class="nax_l">
+        <view class="x1">商品：23</view>
+        <view class="x2">广州市天河区长湴白沙水路长湴工业...</view>
+      </view>
+      <view class="nax_r">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">美宜佳美宜佳美天猫旗舰店...</view>
+      <view class="b2">￥395.34</view>
+    </view>
+
+    <view class="nax">
+      <view class="nax_l">
+        <view class="x1">商品：23</view>
+        <view class="x2">广州市天河区...</view>
+      </view>
+      <view class="nax_r">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">美宜佳美宜佳美天猫旗舰店...</view>
+      <view class="b2">￥395.34</view>
+    </view>
+
+    <view class="nax">
+      <view class="nax_l">
+        <view class="x1">商品：23</view>
+        <view class="x2">广州市天河区长湴白沙水路长湴工业...</view>
+      </view>
+      <view class="nax_r">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

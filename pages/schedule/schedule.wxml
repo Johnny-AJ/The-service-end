@@ -1,0 +1,110 @@
+<!--pages/demo11/demo11.wxml-->
+<!-- <text>pages/demo11/demo11.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="aa">
+    <view class="qq">
+      <i-steps>
+
+        <i-step status="process" class="bb">
+          <view slot="title" class="dd">
+            提交申请
+          </view>
+          <view slot="content" class="cc">
+            2019-08-22
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            服务商审批
+          </view>
+          <view slot="content" class="cc">
+            通过
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            平台审批
+          </view>
+          <view slot="content" class="cc">
+            未审批
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            维修
+          </view>
+          <view slot="content" class="cc">
+            已维修
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            完成
+          </view>
+          <view slot="content" class="cc">
+            2019-08-24
+          </view>
+        </i-step>
+
+      </i-steps>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_t">
+      <view class="t1">天河南1店</view>
+      <view class="img">
+        <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+      </view>
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">商品名称：</view>
+      <view class="b2">
+        Dr.Jart 保湿急救网红蓝药丸面膜宛若新生 保湿急救蓝药丸面膜
+      </view>
+    </view>
+
+    <view class="nav_a">
+      <view class="a1">损坏类型：</view>
+      <view class="a1">老旧</view>
+    </view>
+
+    <view class="nav_a">
+      <view class="a1">报修编号：</view>
+      <view class="a1">
+        BX_201909030001
+      </view>
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">说明：</view>
+      <view class="b2">
+        01展品已老化，为不影响顾客的商品体验 感受，需要及时更换
+      </view>
+    </view>
+
+    <view class="imgs1">
+      <view class="imsg">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+
+      <view class="imsg">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="nav_k">
+    <view class="k1">申请日期：2019-08-22 12：00</view>
+    <view class="k1">服务商审核日期：2019-08-22  12：00</view>
+    <view class="k1">申请日期：2019-08-22  12：00</view>
+  </view>
+</view>

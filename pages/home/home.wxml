@@ -1,0 +1,72 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top">
+    <view class="t_box">
+      <view class="t1"></view>
+      <view class="t2">门店经营情况</view>
+    </view>
+
+    <view class="b_box">
+      <view class="b1">123456.00</view>
+      <view class="b2">总销售额(元)</view>
+      <view class="img">
+        <image src="../../static/imgs/矩形 8.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="commission">
+    <view class="nav">
+      <view class="n1"></view>
+      <view class="n2">待办事项（3）</view>
+    </view>
+
+    <view class="nac">
+      <view class="c1">1</view>
+      <view class="c2">体验装派发(1)</view>
+    </view>
+
+    <view class="nac">
+      <view class="c1">2</view>
+      <view class="c2">商品报修(1)</view>
+    </view>
+
+    <view class="nac">
+      <view class="c1">3</view>
+      <view class="c2">体验装签收(1)</view>
+    </view>
+
+  </view>
+
+  <view class="nax">
+    <view class="x1"></view>
+    <view class="x2">数据分析</view>
+  </view>
+
+  <view class="nas">
+    <view class="img_box">
+      <image src="../../static/imgs/组 4.png"></image>
+      <view class="s1">订单金额分析</view>
+    </view>
+    <view class="img_box">
+      <image src="../../static/imgs/组 4(1).png"></image>
+      <view class="s2">订单量分析</view>
+    </view>
+    <view class="img_box">
+      <image src="../../static/imgs/组 4(3).png"></image>
+      <view class="s3">客户行为分析</view>
+    </view>
+    <view class="img_box">
+      <image src="../../static/imgs/组 4(2).png"></image>
+      <view class="s4">商品销售分析</view>
+    </view>
+  </view>
+
+  <view class="naz">
+    <view class="z1">壹物壹码提供技术支持</view>
+    <view class="z2">客服热线：020-3700061</view>
+  </view>
+</view>

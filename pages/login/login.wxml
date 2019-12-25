@@ -1,0 +1,36 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+
+<view class="bgc">
+
+  <!-- 图 -->
+  <view class="photo_box">
+    <view class="imgs1">
+      <image src="../../static/imgs/组 2@2x.png"></image>
+    </view>
+    <view class="imgs2">
+      <image src="../../static/imgs/组 2.png"></image>
+    </view>
+    <view class="p1">试了么商城服务商端</view>
+  </view>
+
+  <!-- 中间 -->
+  <view class="login_box">
+    <view class="const_box">
+      <view class="const">
+        <view class="imgs3">
+          <image src="../../static/imgs/手机.png"></image>
+        </view>
+        <input placeholder="输入您的手机号"></input>
+      </view>
+
+      <view class="const">
+        <view class="imgs3">
+          <image src="../../static/imgs/锁.png"></image>
+        </view>
+        <input placeholder="输入验证码"></input>
+      </view>
+    </view>
+    <view class="zhuce">登录</view>
+  </view>
+</view>

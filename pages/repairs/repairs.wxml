@@ -1,0 +1,58 @@
+<!--pages/repairs/repairs.wxml-->
+<!-- <text>pages/repairs/repairs.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="nav">
+    <view class="img">
+      <image src="../../static/imgs/记录.png"></image>
+      <view class="v1">报修记录</view>
+    </view>
+
+    <view class="nax">
+      <input placeholder="请输入门店名搜索"></input>
+    </view>
+
+    <view class="search">搜索</view>
+  </view>
+
+  <view class="nab">
+    <view class="nab_t">
+      <view class="t1">美宜佳商店</view>
+      <view class="t2">已审核</view>
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">商品编号：1</view>
+      <view class="b1">损坏类型：其他</view>
+      <view class="b1">损坏描述：位于门店1的01号商品已老旧，为不...</view>
+    </view>
+  </view>
+
+  <view class="nab">
+    <view class="nab_t">
+      <view class="t1">美宜佳商店</view>
+      <view class="t2">已完成</view>
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">商品编号：1</view>
+      <view class="b1">损坏类型：人为损坏</view>
+      <view class="b1">损坏描述：位于门店1的01号商品已老旧，为不...</view>
+    </view>
+  </view>
+
+  <view class="nab1">
+    <view class="nab_t1">
+      <view class="t1">美宜佳商店</view>
+      <view class="t3">未通过</view>
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">商品编号：1</view>
+      <view class="b1">损坏类型：老旧</view>
+      <view class="b1">损坏描述：位于门店1的01号商品已老旧，为不...</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,103 @@
+<!--pages/OtisTest/OtisTest.wxml-->
+<!-- <text>pages/OtisTest/OtisTest.wxml</text> -->
+
+<view class="bgc">
+
+
+  <view class="aa">
+    <view class="qq">
+      <i-steps>
+
+        <i-step status="process" class="bb">
+          <view slot="title" class="dd">
+            提交申请
+          </view>
+          <view slot="content" class="cc">
+            2019-08-22
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            服务商审批
+          </view>
+          <view slot="content" class="cc">
+            通过
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            平台审批
+          </view>
+          <view slot="content" class="cc">
+            未审批
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            维修
+          </view>
+          <view slot="content" class="cc">
+            已维修
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            完成
+          </view>
+          <view slot="content" class="cc">
+            2019-08-24
+          </view>
+        </i-step>
+
+      </i-steps>
+    </view>
+  </view>
+
+
+  <view class="nav_box">
+
+    <view class="nav">
+      <view class="v1">天河1号店</view>
+    </view>
+
+    <view class="photo">
+      <view class="img">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+
+      <view class="p_right">
+        <view class="p1">XXX专柜XXX专柜XXX专柜XXX专 柜XXX专柜</view>
+      </view>
+
+    </view>
+
+    <view class="nav_b">
+      <view class="b1">保证金:</view>
+      <view class="b2">￥2000.00</view>
+    </view>
+
+
+    <view class="nav_b">
+      <view class="b1">保证金:</view>
+      <view class="b2">￥2000.00</view>
+    </view>
+
+  </view>
+
+
+
+  <view class="nab_box">
+    <view class="x1">服务商审核：已通过</view>
+    <view class="x1">服务商审核时间：2019年09年27日 12:00</view>
+    <view class="x1">申请时间：2019年09年27日 12:00 </view>
+    <view class="pass_b">
+      <view class="f1">不通过</view>
+      <view class="f2">通过考核</view>
+    </view>
+  </view>
+
+</view>

@@ -17,7 +17,7 @@
     <view class="search">搜索</view>
   </view>
 
-  <view class="nab">
+  <view class="nab" bindtap="handurl" data-url="/pages/consent/consent">
     <view class="nab_t">
       <view class="t1">美宜佳商店</view>
       <view class="t2">已审核</view>
@@ -30,7 +30,7 @@
     </view>
   </view>
 
-  <view class="nab">
+  <view class="nab" bindtap="handurl" data-url="/pages/consent/consent">
     <view class="nab_t">
       <view class="t1">美宜佳商店</view>
       <view class="t2">已完成</view>
@@ -43,7 +43,7 @@
     </view>
   </view>
 
-  <view class="nab1">
+  <view class="nab1" bindtap="handurl" data-url="/pages/consent/consent">
     <view class="nab_t1">
       <view class="t1">美宜佳商店</view>
       <view class="t3">未通过</view>

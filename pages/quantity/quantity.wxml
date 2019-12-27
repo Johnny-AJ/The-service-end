@@ -1,0 +1,44 @@
+<!--pages/indent/indent.wxml-->
+<!-- <text>pages/indent/indent.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top">
+    <view class="t1">门店1</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 3.png"></image>
+    </view>
+  </view>
+
+  <view class="nav">
+
+    <view class="ding">
+      <view class="d1">订单量统计</view>
+    </view>
+
+    <view class="jin">
+      <view class="sever">
+        <view class="s1">近7天</view>
+        <view class="imgs">
+          <image src="../../static/imgs/矩形 3.png"></image>
+        </view>
+      </view>
+      <view class="s2">2019-09-09-2019-09-15</view>
+    </view>
+
+    <view class="photo">
+      <image src="../../static/imgs/图表.png"></image>
+    </view>
+
+    <view class="number">
+      <view class="n1">09.09</view>
+      <view class="n1">09.10</view>
+      <view class="n1">09.11</view>
+      <view class="n1">09.12</view>
+      <view class="n1">09.13</view>
+      <view class="n1">09.14</view>
+      <view class="n1">09.15</view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,15 @@
+/* pages/scan/scan.wxss */
+
+.img {
+  margin-top: 191rpx;
+  margin-left: 164rpx;
+}
+
+.img image {
+  width: 400rpx;
+  height: 400rpx;
+}
+
+.a {
+  border-top: 1px solid #f5f5f5;
+}

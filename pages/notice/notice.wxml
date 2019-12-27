@@ -1,0 +1,69 @@
+<!--pages/notice/notice.wxml-->
+<!-- <text>pages/notice/notice.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="nab_b">
+    <view class="b">
+      <view class="b1">公告1</view>
+    </view>
+
+    <view class="c">
+      <view class="c1">
+        “电子商务来势汹汹,给传统分销模式带来很大冲击,要想企业走得更远,转型势在必行。”福建新中冠集团董事长吴根茂告诉记者,转型之初,网络消费市场是各界觊觎“香饽饽”......
+      </view>
+    </view>
+
+    <view class="a">
+      <view class="a1">2019/09/12</view>
+    </view>
+  </view>
+
+  <view class="nab_b">
+    <view class="b">
+      <view class="b1">公告1</view>
+    </view>
+
+    <view class="c">
+      <view class="c1">
+        “电子商务来势汹汹,给传统分销模式带来很大冲击,要想企业走得更远,转型势在必行。”福建新中冠集团董事长吴根茂告诉记者,转型之初,网络消费市场是各界觊觎“香饽饽”......
+      </view>
+    </view>
+
+    <view class="a">
+      <view class="a1">2019/09/12</view>
+    </view>
+  </view>
+
+  <view class="nab_b">
+    <view class="b">
+      <view class="b1">公告1</view>
+    </view>
+
+    <view class="c">
+      <view class="c1">
+        “电子商务来势汹汹,给传统分销模式带来很大冲击,要想企业走得更远,转型势在必行。”福建新中冠集团董事长吴根茂告诉记者,转型之初,网络消费市场是各界觊觎“香饽饽”......
+      </view>
+    </view>
+
+    <view class="a">
+      <view class="a1">2019/09/12</view>
+    </view>
+  </view>
+
+  <view class="nab_b">
+    <view class="b">
+      <view class="b1">公告1</view>
+    </view>
+
+    <view class="c">
+      <view class="c1">
+        “电子商务来势汹汹,给传统分销模式带来很大冲击,要想企业走得更远,转型势在必行。”福建新中冠集团董事长吴根茂告诉记者,转型之初,网络消费市场是各界觊觎“香饽饽”......
+      </view>
+    </view>
+
+    <view class="a">
+      <view class="a1">2019/09/12</view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,112 @@
+/* pages/experience/experience.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
+}
+
+.tabs {
+  width: 750rpx;
+  height: 90rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tabNav {
+  color: #639ffb;
+}
+
+.text {
+  border-bottom: 4rpx solid #5194fb;
+  padding-bottom: 10rpx;
+}
+
+.nav {
+  width: 750rpx;
+  height: 280rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+}
+
+.nav_b {
+  width: 750rpx;
+  height: 72rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+
+.b2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(103, 148, 250, 1);
+  margin-right: 30rpx;
+}
+
+.nav_z {
+  width: 750rpx;
+  height: 207rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  position: relative;
+}
+
+.img {
+  width: 150rpx;
+  height: 207rpx;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.img image {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.x1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-bottom: 40rpx;
+}
+
+.x2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-bottom: 5rpx;
+}
+
+.nav_x {
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.nav_q {
+  width: 160rpx;
+  height: 60rpx;
+  border: 1px solid rgba(153, 153, 153, 1);
+  border-radius: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+  position: absolute;
+  top: 120rpx;
+  right: 30rpx;
+}

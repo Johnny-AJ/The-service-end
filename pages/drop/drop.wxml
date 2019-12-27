@@ -1,0 +1,111 @@
+<!--pages/drop/drop.wxml-->
+<!-- <text>pages/drop/drop.wxml</text> -->
+
+<view class="bgc">
+
+
+  <view class="aa">
+    <view class="qq">
+      <i-steps>
+
+        <i-step status="process" class="bb">
+          <view slot="title" class="dd">
+            提交申请
+          </view>
+          <view slot="content" class="cc">
+            2019-08-22
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            服务商审批
+          </view>
+          <view slot="content" class="cc">
+            通过
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            平台审批
+          </view>
+          <view slot="content" class="cc">
+            未审批
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            维修
+          </view>
+          <view slot="content" class="cc">
+            已维修
+          </view>
+        </i-step>
+
+        <i-step status="" class="bb">
+          <view slot="title" class="dd">
+            完成
+          </view>
+          <view slot="content" class="cc">
+            2019-08-24
+          </view>
+        </i-step>
+
+      </i-steps>
+    </view>
+  </view>
+
+
+  <view class="nav_b">
+
+    <view class="nav_t">
+      <view class="t1">体验装信息</view>
+    </view>
+
+    <view class="photo">
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+
+      <view class="p_left">
+        <view class="t2">保湿急救 网红蓝药丸面膜</view>
+        <view class="cons">
+          <view class="t3">5片/盒</view>
+          <view class="t3">100元/件</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="number">
+      <view class="t3">数量</view>
+      <view class="t3">X 100件</view>
+    </view>
+
+    <view class="number">
+      <view class="t3">备注</view>
+      <view class="t3">要红色的</view>
+    </view>
+
+    <view class="number">
+      <view class="t3">支付金额</view>
+      <view class="t4">￥10000</view>
+    </view>
+
+    <view class="number">
+      <view class="t3">申领编号：SL_201909030001</view>
+    </view>
+
+  </view>
+
+
+  <view class="bottom_b">
+    <view class="b1">仓库发货：2019-12-12 12：00</view>
+    <view class="b1">平台审核：通过</view>
+    <view class="b1">平台审核日期：2019-08-22 12：00</view>
+    <view class="b1">申请日期：2019-08-22 12：00</view>
+    <view class="btn">一键发货</view>
+  </view>
+
+</view>

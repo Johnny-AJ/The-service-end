@@ -1,0 +1,76 @@
+<!--pages/experience/experience.wxml-->
+<!-- <text>pages/experience/experience.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="tabs">
+    <view wx:for="{{title}}" class='{{currentIndex==index?"tabNav":""}}' bindtap="handTap" data-aa="{{index}}">
+      <text class='{{currentIndex==index?"text":" "}}'>{{item}}</text>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">门店1</view>
+      <view class="b2">待签收</view>
+    </view>
+
+    <view class="nav_z">
+      <view class="img">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+      <view class="nav_x">
+        <view class="x1">Dr.Jart 保湿急救网红蓝药丸面膜</view>
+        <view class="x2">数量：100件</view>
+        <view class="x2">类型：采购</view>
+      </view>
+      <view class="nav_q">
+        <view class="x2">确认签收</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">门店1</view>
+      <view class="b2">待派发</view>
+    </view>
+
+    <view class="nav_z">
+      <view class="img">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+      <view class="nav_x">
+        <view class="x1">Dr.Jart 保湿急救网红蓝药丸面膜</view>
+        <view class="x2">数量：100件</view>
+        <view class="x2">类型：采购</view>
+      </view>
+      <view class="nav_q">
+        <view class="x2">确认签收</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="b1">门店1</view>
+      <view class="b2">已完成</view>
+    </view>
+
+    <view class="nav_z">
+      <view class="img">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+      <view class="nav_x">
+        <view class="x1">Dr.Jart 保湿急救网红蓝药丸面膜</view>
+        <view class="x2">数量：100件</view>
+        <view class="x2">类型：采购</view>
+      </view>
+      <view class="nav_q">
+        <view class="x2">确认签收</view>
+      </view>
+    </view>
+  </view>
+
+</view>

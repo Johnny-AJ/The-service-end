@@ -4,7 +4,9 @@
 <view class="bgc">
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentIndex==index?"tabNax":" "}}' data-aa="{{index}}" bindtap="handTab">{{item}}</view>
+    <view wx:for="{{title}}" class='{{currentIndex==index?"tabNax":" "}}' data-aa="{{index}}" bindtap="handTab">
+      <text class='{{currentIndex==index?"text":" "}}'>{{item}}</text>
+    </view>
   </view>
 
   <view class="nab">

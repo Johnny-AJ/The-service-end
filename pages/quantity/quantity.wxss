@@ -1,0 +1,125 @@
+/* pages/indent/indent.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 1334rpx;
+  overflow: hidden;
+  /* background-color: skyblue; */
+  background-color: #f5f5f5;
+}
+
+.top {
+  width: 750rpx;
+  height: 100rpx;
+  background: rgba(255, 255, 255, 1);
+  border-top: 1px solid #f5f5f5;
+  display: flex;
+  align-items: center;
+  line-height: 100rpx;
+}
+
+.img image {
+  width: 22rpx;
+  height: 14rpx;
+  margin-left: 10rpx;
+}
+
+.t1 {
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+
+.nav {
+  width: 750rpx;
+  height: 1086rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+  padding-top: 30rpx;
+}
+
+.ding {
+  width: 750rpx;
+  height: 29rpx;
+  /* border: 1px solid red; */
+}
+
+.d1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+
+.jin {
+  width: 750rpx;
+  height: 50rpx;
+  /* border: 1px solid red; */
+  margin-top: 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+.sever {
+  width: 130rpx;
+  height: 50rpx;
+  border: 2rpx solid rgba(120, 139, 241, 1);
+  border-radius: 25rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30rpx;
+}
+
+.s1 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+}
+
+.imgs image {
+  width: 16rpx;
+  height: 11rpx;
+  margin-bottom: 7rpx;
+  margin-left: 11rpx;
+}
+
+.s2 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 20rpx;
+}
+
+.photo {
+  margin-top: 133rpx;
+  margin-left: 56rpx;
+}
+
+.photo image {
+  width: 638rpx;
+  height: 500rpx;
+}
+
+.number {
+  width: 674rpx;
+  height: 16rpx;
+  /* border: 1px solid red; */
+  margin-left: 34rpx;
+  display: flex;
+  align-items: center;
+  margin-top: 15rpx;
+}
+
+.n1 {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 50rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/scan/scan.wxml-->
+<!-- <text>pages/scan/scan.wxml</text> -->
+
+<view class="a"></view>
+
+<view class="img">
+  <image src="../../static/imgs/扫描二维码.png"></image>
+</view>

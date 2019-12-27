@@ -3,7 +3,7 @@
 
 <view class="bgc">
 
-  <view class="nav">
+  <view class="nav" bindtap="handurl" data-url="/pages/stores/stores">
     <view class="nav_b">
       <view class="b1">美宜佳天猫旗舰店</view>
       <view class="b2">￥395.34</view>
@@ -20,7 +20,7 @@
     </view>
   </view>
 
-  <view class="nav">
+  <view class="nav" bindtap="handurl" data-url="/pages/stores/stores">
     <view class="nav_b">
       <view class="b1">美宜佳天猫旗舰店</view>
       <view class="b2">￥395.34</view>
@@ -37,7 +37,7 @@
     </view>
   </view>
 
-  <view class="nav">
+  <view class="nav" bindtap="handurl" data-url="/pages/stores/stores">
     <view class="nav_b">
       <view class="b1">美宜佳美宜佳美天猫旗舰店...</view>
       <view class="b2">￥395.34</view>
@@ -54,7 +54,7 @@
     </view>
   </view>
 
-  <view class="nav">
+  <view class="nav" bindtap="handurl" data-url="/pages/stores/stores">
     <view class="nav_b">
       <view class="b1">美宜佳美宜佳美天猫旗舰店...</view>
       <view class="b2">￥395.34</view>

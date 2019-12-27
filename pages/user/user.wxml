@@ -1,2 +1,57 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<!-- <text>pages/user/user.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="nav">
+    <view class="nav_b">
+      <view class="ims">
+        <image src="../../static/imgs/小樱.jpg"></image>
+      </view>
+      <view class="nav_c">
+        <view class="c1"> 服务商1</view>
+        <view class="c2">上次登录：2019-09-01 12:00</view>
+      </view>
+    </view>
+    <view class="img">
+      <image src="../../static/imgs/扫一扫.png"></image>
+    </view>
+  </view>
+
+  <view class="nab_x" bindtap="handurl" data-url="/pages/deduct/deduct">
+    <view class="nab">
+      <view class="iml">
+        <image src="../../static/imgs/提成规则.png"></image>
+      </view>
+      <view class="x1">提成管理</view>
+    </view>
+    <view class="imc">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="nab_x" bindtap="handurl" data-url="/pages/experience/experience">
+    <view class="nab">
+      <view class="iml">
+        <image src="../../static/imgs/组 22.png"></image>
+      </view>
+      <view class="x1">首批体验装</view>
+    </view>
+    <view class="imc">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+
+  <view class="nab_x">
+    <view class="nab">
+      <view class="iml">
+        <image src="../../static/imgs/积分商城-首次设置昵称.png"></image>
+      </view>
+      <view class="x1">专柜申请</view>
+    </view>
+    <view class="imc">
+      <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+    </view>
+  </view>
+</view>

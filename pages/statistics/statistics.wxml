@@ -1,0 +1,35 @@
+<!--pages/statistics/statistics.wxml-->
+<!-- <text>pages/statistics/statistics.wxml</text> -->
+
+
+<view class="bgc">
+
+  <view class="top">
+    <view class="t1">门店1</view>
+    <view class="img">
+      <image src="../../static/imgs/矩形 3.png"></image>
+    </view>
+  </view>
+
+
+  <view class="cons">
+
+    <view class="const">
+      <view class="c1">商品销售统计</view>
+      <view class="c2">
+        <view class="c3">详情</view>
+        <view class="imgs">
+          <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+        </view>
+      </view>
+    </view>
+
+    <view class="photo">
+      <image src="../../static/imgs/组 12.png"></image>
+    </view>
+
+    <view class="number">￥2356.00</view>
+
+  </view>
+
+</view>

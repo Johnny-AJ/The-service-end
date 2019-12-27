@@ -1,0 +1,63 @@
+<view class="tabs">
+  <view wx:for="{{title}}" class='{{currentIndex==index?"tabNav":""}}' bindtap="handTab" data-aa="{{index}}">
+    <text class='{{currentIndex==index?"text":" "}}'>{{item}}</text>
+  </view>
+</view>
+
+<!-- tab -->
+
+
+<view class="aa">
+  <view class="qq">
+    <i-steps>
+
+      <i-step status="process" class="bb">
+        <view slot="title" class="dd">
+          提交申请
+        </view>
+        <view slot="content" class="cc">
+          2019-08-22
+        </view>
+      </i-step>
+
+      <i-step status="" class="bb">
+        <view slot="title" class="dd">
+          服务商审批
+        </view>
+        <view slot="content" class="cc">
+          通过
+        </view>
+      </i-step>
+
+      <i-step status="" class="bb">
+        <view slot="title" class="dd">
+          平台审批
+        </view>
+        <view slot="content" class="cc">
+          未审批
+        </view>
+      </i-step>
+
+      <i-step status="" class="bb">
+        <view slot="title" class="dd">
+          维修
+        </view>
+        <view slot="content" class="cc">
+          已维修
+        </view>
+      </i-step>
+
+      <i-step status="" class="bb">
+        <view slot="title" class="dd">
+          完成
+        </view>
+        <view slot="content" class="cc">
+          2019-08-24
+        </view>
+      </i-step>
+
+    </i-steps>
+  </view>
+</view>
+
+<!-- 进度条 -->

@@ -12,7 +12,7 @@
     <view class="b_box">
       <view class="b1">123456.00</view>
       <view class="b2">总销售额(元)</view>
-      <view class="img">
+      <view class="img" bindtap="handurl" data-url="/pages/outlet/outlet">
         <image src="../../static/imgs/矩形 8.png"></image>
       </view>
     </view>

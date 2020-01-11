@@ -1,5 +1,9 @@
 {
   "pages": [
+    "pages/manage/manage",
+    "pages/login/login",
+    "pages/home/home",
+    "pages/outlet/outlet",
     "pages/user/user",
     "pages/consent/consent",
     "pages/indent/indent",
@@ -16,11 +20,9 @@
     "pages/scan/scan",
     "pages/statistics/statistics",
     "pages/repairs/repairs",
-    "pages/home/home",
     "pages/shop/shop",
     "pages/quantity/quantity",
     "pages/demo/demo",
-    "pages/login/login",
     "pages/index/index"
   ],
   "window": {

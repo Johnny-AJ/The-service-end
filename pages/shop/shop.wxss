@@ -1,7 +1,7 @@
 /* pages/shop/shop.wxss */
 
 .bgc {
-  width: 750px;
+  width: 750rpx;
   height: 1334rpx;
   overflow: hidden;
   /* background-color: skyblue; */

@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/manage/manage",
     "pages/user/user",
     "pages/consent/consent",
     "pages/indent/indent",

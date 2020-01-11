@@ -1,0 +1,98 @@
+<!--pages/manage/manage.wxml-->
+<!-- <text>pages/manage/manage.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="top">
+
+    <view class="top1">
+      <view class="t1">1234.00</view>
+      <view class="t2">全部门店销售额</view>
+    </view>
+
+    <view class="top2">
+      <view class="top_box">
+        <view class="t3">123456.00</view>
+        <view class="t3">提成</view>
+      </view>
+
+      <view class="top_box">
+        <view class="t3">100</view>
+        <view class="t3">会员数</view>
+      </view>
+    </view>
+
+    <view class="t4"></view>
+
+  </view>
+
+
+  <view class="door">
+    <view class="box">
+      <view class="d1"></view>
+      <view class="d2">门店销售详情</view>
+      <view class="d1"></view>
+    </view>
+  </view>
+
+  <view class="cons">
+    <view class="cons_b">
+      <view class="c1">门店1</view>
+    </view>
+
+    <view class="cons_k">
+      <view class="k_box">
+        <view class="k1">销售额：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">提成：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">待付款订单：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">已完成订单：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">会员数：：</view>
+        <view class="k1">20</view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="cons">
+    <view class="cons_b">
+      <view class="c1">门店1</view>
+    </view>
+
+    <view class="cons_k">
+      <view class="k_box">
+        <view class="k1">销售额：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">提成：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">待付款订单：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">已完成订单：：</view>
+        <view class="k1">￥123456.00</view>
+      </view>
+      <view class="k_box">
+        <view class="k1">会员数：：</view>
+        <view class="k1">20</view>
+      </view>
+    </view>
+
+  </view>
+  
+</view>

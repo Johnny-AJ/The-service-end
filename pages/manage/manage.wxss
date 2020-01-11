@@ -1,0 +1,147 @@
+/* pages/manage/manage.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 100%;
+  overflow: hidden;
+}
+
+.top {
+  width: 750rpx;
+  height: 350rpx;
+  background: rgba(103, 148, 250, 1);
+  padding-top: 70rpx;
+  position: relative;
+}
+
+.top1 {
+  width: 750rpx;
+  text-align: center;
+}
+
+.t1 {
+  font-size: 60rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+}
+
+.t2 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.top2 {
+  width: 750rpx;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  margin-top: 70rpx;
+}
+
+.top_box {
+  width: 375rpx;
+  height: 145rpx;
+  text-align: center;
+  /* border: 1px solid red; */
+  margin-top: 24rpx;
+}
+
+.t3 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+
+.t4 {
+  width: 2rpx;
+  height: 50rpx;
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  bottom: 75rpx;
+  left: 374rpx;
+}
+
+.door {
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 330rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.d1 {
+  width: 60rpx;
+  height: 2rpx;
+  border: 1rpx solid rgba(153, 153, 153, 1);
+}
+
+.d2 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.cons {
+  width: 750rpx;
+  height: 380rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  /* border: 1px solid red; */
+  margin-bottom: 20rpx;
+  border: 1px solid #f5f5f5;
+}
+
+.cons_b {
+  width: 750rpx;
+  height: 70rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.c1 {
+  margin-left: 30rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  line-height: 70rpx;
+}
+
+.cons_k {
+  width: 750rpx;
+  height: 310rpx;
+  box-sizing: border-box;
+  margin-left: 30rpx;
+}
+
+.k_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.k1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 60rpx;
+  margin-top: 20rpx;
+}

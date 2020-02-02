@@ -9,7 +9,7 @@
     </view>
 
     <view class="t1"> 账户余额</view>
-    <view class="t2">￥123456.00</view>
+    <view class="t2">￥{{balance}}</view>
     <view class="t3" bindtap="handurl" data-url="/pages/experience/experience">提现</view>
 
   </view>
@@ -22,74 +22,27 @@
 
   <view class="nav_box">
 
-    <view class="nav_b">
+    <view class="nav_b" wx:for="{{record}}" wx:key="*this"  wx:if="{{currentIndex==0}}">
       <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
+        <view class="b1">{{record.storeName}}</view>
+        <view class="b2">￥{{record.serverIncomeMoney}}</view>
       </view>
-      <view class="b3">2019-09-04 16:32</view>
+      <view class="b3">{{record.createTime}}</view>
     </view>
 
   </view>
 
-  <view class="nav_box">
+  <view class="nav_box" wx:for="{{profile}}" wx:key="*this" wx:if="{{currentIndex==1}}">
 
-    <view class="nav_b">
+    <view class="nav_b" >
       <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
+        <view class="b1">{{profile.storeName}}</view>
+        <view class="b2">￥{{profile.serverIncomeMoney}}</view>
       </view>
-      <view class="b3">2019-09-04 16:32</view>
+      <view class="b3">{{profile.createTime}}</view>
     </view>
 
   </view>
 
-  <view class="nav_box">
-
-    <view class="nav_b">
-      <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
-      </view>
-      <view class="b3">2019-09-04 16:32</view>
-    </view>
-
-  </view>
-
-  <view class="nav_box">
-
-    <view class="nav_b">
-      <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
-      </view>
-      <view class="b3">2019-09-04 16:32</view>
-    </view>
-
-  </view>
-
-  <view class="nav_box">
-
-    <view class="nav_b">
-      <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
-      </view>
-      <view class="b3">2019-09-04 16:32</view>
-    </view>
-
-  </view>
-
-  <view class="nav_box">
-
-    <view class="nav_b">
-      <view class="box">
-        <view class="b1">提成-来自门店1的订单</view>
-        <view class="b2">￥100.00</view>
-      </view>
-      <view class="b3">2019-09-04 16:32</view>
-    </view>
-
-  </view>
-
+ 
 </view>

@@ -9,12 +9,22 @@
 		"postcss": true,
 		"minified": true,
 		"newFeature": true,
+		"coverView": true,
 		"autoAudits": false,
-		"coverView": true
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.9.4",
-	"appid": "wxe35e0d527e53998b",
+	"libVersion": "2.10.0",
+	"appid": "wx921c302fa60732ae",
 	"projectname": "The-service-end",
 	"debugOptions": {
 		"hidedInDevtools": []

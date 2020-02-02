@@ -1,0 +1,86 @@
+.associated{
+  width: 100%;
+  height:  100%;
+  box-sizing: border-box;
+  padding: 0 10rpx;
+}
+page{
+  background: #f5f5f5
+}
+.associated .cont{
+  height:230rpx;
+  width: 100%;
+  background:rgba(255,255,255,1);
+  border-radius:10rpx;
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  padding: 25rpx 20rpx; 
+  display: flex;
+  justify-content: space-between;
+}
+.associated .cont .cl{
+  width: 180rpx;
+  height: 180rpx;
+}
+.associated .cont .cl image{
+  width: 100%;
+  height: 100%;
+}
+.associated .cont .cr{
+  width: 495rpx;
+  height: 100%;
+}
+.associated .cont .cr .rt{
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+
+}
+.associated .cont .cr .rt .name{
+  width: 460rpx;
+  margin-top: -5rpx;
+  font-size:28rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(34,34,34,1);
+letter-spacing:2rpx;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+}
+.associated .cont .cr .rt .check{
+  width: 15rpx;
+  height: 15rpx;
+  background:rgba(103,148,250,1);
+border-radius:50%;
+}
+.associated .cont .cr .rb{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60rpx;
+  box-sizing: border-box;
+  padding-right: 30rpx;
+  font-size:28rpx;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(34,34,34,1);
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: fixed;
+bottom: 60rpx;
+left: 30rpx;
+width: 690rpx;
+height:88rpx;
+background:rgba(103,148,250,1);
+border-radius:10rpx;
+font-size:34rpx;
+font-family:PingFang SC;
+font-weight:bold;
+color:rgba(255,255,255,1);
+letter-spacing: 5rpx;
+}

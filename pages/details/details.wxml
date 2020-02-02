@@ -1,0 +1,43 @@
+<!--pages/details/details.wxml-->
+<view class="details">
+  <view class="imgs">
+    <image src="{{getWaresInfo.logoUrl}}"></image>
+    <view class="rt">
+    <image src="../../static/imgs/rt.png"></image>
+    <view class="text">  <text> 详情</text></view>
+    </view>
+  </view>
+  <view class="cont">
+    <view class="t1">
+      <view class="lft">商品名称：</view>
+      <view class="rht">
+       {{getWaresInfo.name}}
+      </view>
+    </view>
+    <view class="t1">
+      <view class="lft">商品编号：</view>
+      <view class="rht"> {{getWaresInfo.waresCode}} </view>
+    </view>
+    <view class="t1">
+      <view class="lft">类型：</view>
+      <view class="rht">{{getWaresInfo.typeName}}</view>
+    </view>
+       <view class="t1">
+      <view class="lft">规格：</view>
+      <view class="rht">{{getWaresInfo.logoUrl}}</view>
+    </view>
+       <view class="t1">
+      <view class="lft">库存：</view>
+      <view class="rht">{{getWaresInfo.repertory}}</view>
+    </view>
+     <view class="t1">
+      <view class="lft">二维码：</view>
+      <view class="rht">   <image src="../../static/imgs/组 17(1).png"></image></view>
+    </view>
+     <view class="t2">
+      <view class="lft" data-id="{{getWaresInfo.id}}"  bindtap="change" > <image src="../../static/imgs/修改.png"></image> <text>修改</text></view>
+      <view class="lft"  data-id="{{getWaresInfo.id}}" bindtap="del" >  <image src="../../static/imgs/删除 (1).png"></image> <text class="color">删除</text></view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,73 @@
+<!--pages/Sample_editor/Sample_editor.wxml-->
+<!-- <text>pages/Sample_editor/Sample_editor.wxml</text> -->
+
+<view class="bgc">
+
+  <view class="door">
+    <view class="box">
+      <view class="d1"></view>
+      <view class="d2">北京七喜店</view>
+      <view class="d1"></view>
+    </view>
+  </view>
+
+  <view class="shangping">
+    <view class="nav">
+      <view class="n1">商品编号：32432432423</view>
+    </view>
+
+    <view class="nab">
+      <view class="imgs">
+        <image src="../../static/imgs/组 17(1).png"></image>
+      </view>
+
+      <view class="right">
+        <view class="r1">Dr.Jart+ 宛若新生水漾宝石急救面膜 5片/盒</view>
+        <view class="r2">商品类型：护肤</view>
+        <view class="r3">￥79</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cont">
+    <view class="specification">
+      <view class="consk">规格1</view>
+      <view class="imgas" bindtap="handleImg">
+        <image src='{{isshow?"../../static/imgs/矩形 35.png" :"../../static/imgs/矩形 34.png"}}'></image>
+      </view>
+    </view>
+    <view wx:if="{{isshow?'true':''}}">
+      <view class="color">
+        <view class="c1">颜色</view>
+        <view class="c1">黑色</view>
+        <view class="c1">删除</view>
+      </view>
+      <view class="color">
+        <view class="c1">尺寸</view>
+        <view class="c1">37码</view>
+        <view class="c1">删除</view>
+      </view>
+      <view class="color">
+        <view class="c1">库存</view>
+        <view class="c1">999件</view>
+        <view class="c1">删除</view>
+      </view>
+      <view class="color1">
+        <view class="c2">新增</view>
+        <view class="imgqs">
+          <image src="../../static/imgs/组 5.png"></image>
+        </view>
+      </view>
+    </view>
+
+
+
+
+    <view class="imgks">
+      <image src="../../static/imgs/添加.png"></image>
+    </view>
+  </view>
+
+  <view class="btn">保存</view>
+
+</view>

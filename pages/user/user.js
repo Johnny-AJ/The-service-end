@@ -5,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    result: '',
 
   },
   handurl(e) {
@@ -12,59 +13,25 @@ Page({
       url: e.currentTarget.dataset.url
     })
   },
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function(options) {
+  scango() {
+    let that = this;
+    wx.scanCode({
+      success: (res) => {
+        var result = res.result;
+        let str = result.slice(0, 4);
 
-  },
+        if (str == 'http') {
+          console.log('555555')
+        } else {
+          console.log(result, 'str')
+          wx.navigateTo({
+            url: '/pages/associated/associated?code=' + result,
+          })
 
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function() {
 
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function() {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function() {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function() {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function() {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function() {
-
+        }
+       
+      }
+    })
   }
 })

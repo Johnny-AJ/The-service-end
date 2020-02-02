@@ -1,0 +1,55 @@
+<!--pages/associated/associated.wxml-->
+<!-- <text>pages/associated/associated.wxml</text> -->
+
+
+<view class="bgc" wx:if="{{res.bindingStatus==1}}">
+
+  <view class="door">
+    <view class="door_box">
+      <view class="d1">门店名称：</view>
+      <view class="d1">{{res.storeName}}</view>
+    </view>
+  </view>
+
+  <view class="door">
+    <view class="door_box">
+      <view class="d1">联系电话：</view>
+      <view class="d1">{{res.phone}}</view>
+    </view>
+  </view>
+  <view class="door">
+    <view class="door_box">
+      <view class="d1">省/市/区：</view>
+      <view class="d1">{{res.area}}</view>
+    </view>
+
+
+  </view>
+
+  <view class="door">
+    <view class="door_box">
+      <view class="d1">详细地址：</view>
+      <view class="d1">{{res.address}}</view>
+    </view>
+  </view>
+
+  <view class="door">
+    <view class="door_box">
+      <view class="d1">注册日期：</view>
+      <view class="d1">{{res.createTime}}</view>
+    </view>
+  </view>
+
+  <view class="btn" data-code="{{code}}" bindtap="handleBtn">确认关联</view>
+</view>
+<view class="bgc" wx:if="{{res.bindingStatus==0}}">
+
+  <view class="photo">
+    <view class="img">
+      <image src="../../static/imgs/组 1.png"></image>
+    </view>
+
+    <view class="b1">该门店已关联其他服务商!</view>
+  </view>
+
+</view>

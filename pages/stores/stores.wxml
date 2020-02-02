@@ -4,50 +4,93 @@
 <view class="bgc">
 
   <view class="tabs">
-    <view wx:for="{{title}}" class='{{currentIndex==index?"tabNax":" "}}' data-aa="{{index}}" bindtap="handTab">
+    <view wx:for="{{title}}" wx:key="*this" class='{{currentIndex==index?"tabNax":" "}}' data-aa="{{index}}" bindtap="handTab">
       <text class='{{currentIndex==index?"text":" "}}'>{{item}}</text>
     </view>
   </view>
 
-  <view class="nab">
-    <view class="b1">门店名称：</view>
-    <view class="b1">门店1</view>
-  </view>
 
-  <view class="nax">
-    <view class="b1">总额：</view>
-    <view class="b1">￥123456.00</view>
+  <view class="tabs-cont1" hidden="{{currentIndex==1}}">
+    <view class="nab">
+      <view class="b1">门店名称：</view>
+      <view class="b1">{{getStoreInfo.storeName}}</view>
+    </view>
+
+    <view class="nax">
+      <view class="b1">总额：</view>
+      <view class="b1">￥{{getStoreInfo.turnover}}</view>
+    </view>
+    <view class="nax">
+      <view class="b1">保证金：</view>
+      <view class="b1">{{getStoreInfo.deposit}}</view>
+    </view>
+    <view class="nax">
+      <view class="b1">商品：</view>
+      <view class="b1">{{getStoreInfo.waresNum}}</view>
+    </view>
+
+    <view class="nax">
+      <view class="b1">联系电话</view>
+      <view class="b1">{{getStoreInfo.phone}}</view>
+    </view>
+
+    <view class="nax">
+      <view class="b1">地址：</view>
+      <view class="b1">{{getStoreInfo.area}}</view>
+    </view>
+    <view class="nax">
+      <view class="b1">详细地址：</view>
+      <view class="b1">{{getStoreInfo.address}}</view>
+    </view>
+    <view class="nax">
+      <view class="b1">注册日期：</view>
+      <view class="b1">{{getStoreInfo.createTime}}</view>
+    </view>
   </view>
-  <view class="nax">
-    <view class="b1">保证金：</view>
-    <view class="b1">2000</view>
-  </view>
-  <view class="nax">
-    <view class="b1">商品：</view>
-    <view class="b1">23</view>
-  </view>
-  <view class="nax">
-    <view class="b1">会员：</view>
-    <view class="b1">10</view>
-  </view>
-  <view class="nax">
-    <view class="b1">联系电话</view>
-    <view class="b1">13923823456</view>
-  </view>
-  <view class="nax">
-    <view class="b1">邮箱：</view>
-    <view class="b1">550845855@qq.com</view>
-  </view>
-  <view class="nax">
-    <view class="b1">地址：</view>
-    <view class="b1">广东省-广州市-天河区</view>
-  </view>
-  <view class="nax">
-    <view class="b1">详细地址：</view>
-    <view class="b1">长湴白沙水路119号</view>
-  </view>
-  <view class="nax">
-    <view class="b1">注册日期：</view>
-    <view class="b1">2019/08/23</view>
+  <view class="tabs-cont2" hidden="{{currentIndex==0}}">
+
+    <view class="cont" wx:for="{{getWaresList}}" wx:key="*this" bindtap="goto" data-id="{{item.id}}">
+      <view class="cont">
+        <view class="imgs">
+          <image src="{{item.logoUrl}}"></image>
+        </view>
+        <view class="cz">
+          <view class="t1">
+            <text class="lft">商品编号：</text>
+            <text class="rht">{{item.waresCode}}</text>
+          </view>
+          <view class="t1">
+            <text class="lft">商品类型：</text>
+            <text class="rht">{{item.typeName}}</text>
+          </view>
+          <view class="t1">
+            <text class="lft"> 展品状态：</text>
+            <text class="rht  hot" hidden="{{item.status==0}}">{{item.text}}</text>
+            <text class="rht blur" hidden="{{item.status==1}}">{{item.text}}</text>
+          </view>
+          <view class="t1">
+            <text class="lft"> 商品名称：</text>
+            <view class="rht ">{{item.name}}</view>
+
+          </view>
+        </view>
+        <view class="cr">
+          <image src="../../static/imgs/矩形 16 拷贝 2.png"></image>
+        </view>
+      </view>
+
+
+     
+    </view>
+     <view class="add" bindtap="add" data-storeid="{{storeId}}" >
+        <image src="../../static/imgs/组 5.png"></image>
+      </view>
+      <view class="weui-loadmore" hidden='{{!loading}}'>
+        <view class="weui-loading"></view>
+        <view class="weui-loadmore__tips">正在加载</view>
+      </view>
+      <view class="weui-loadmore weui-loadmore_line" hidden='{{hasNext}}'>
+        <view class="weui-loadmore__tips weui-loadmore__tips_in-line">到底了</view>
+      </view>
   </view>
 </view>

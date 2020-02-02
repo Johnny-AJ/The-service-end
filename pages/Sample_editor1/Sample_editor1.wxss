@@ -1,0 +1,239 @@
+/* pages/Sample_editor/Sample_editor.wxss */
+
+.bgc {
+  width: 750rpx;
+  height: 100%;
+  min-height: 1180rpx;
+  overflow: hidden;
+  background-color: #f5f5f5;
+  /* background-color: skyblue; */
+  padding-top: 20rpx;
+  position: relative;
+}
+
+.door {
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.box {
+  width: 330rpx;
+  height: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.d1 {
+  width: 60rpx;
+  height: 2rpx;
+  border: 1rpx solid rgba(153, 153, 153, 1);
+}
+
+.d2 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.shangping {
+  width: 750rpx;
+
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+}
+.shangping  .add {
+  height: 200rpx;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:30rpx;
+font-family:PingFang SC;
+font-weight:400;
+color:rgba(153,153,153,1);
+
+}
+.shangping  .add image{
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 11rpx;
+}
+.nav {
+  width: 690rpx;
+  height: 70rpx;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 10rpx;
+  margin-left: 29rpx;
+  border-bottom: 1rpx solid #f5f5f5;
+  line-height: 70rpx;
+}
+
+.n1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+}
+
+.nab {
+  width: 690rpx;
+  height: 230rpx;
+  /* border: 1px solid red; */
+  margin-left: 29rpx;
+  display: flex;
+}
+
+.imgs image {
+  margin-top: 20rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.right {
+  width: 490rpx;
+  height: 210rpx;
+  /* border: 1px solid red; */
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.r1 {
+  width: 481rpx;
+  height: 88rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.r2 {
+  width: 250rpx;
+  height: 27rpx;
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+margin-top: 45rpx;
+
+}
+
+.r3 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(240, 43, 80, 1);
+  position: absolute;
+  top: 47rpx;
+  right: 30rpx;
+}
+
+.specification {
+  width: 750rpx;
+  height: 90rpx;
+  background: rgba(255, 255, 255, 1);
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.consk {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+}
+.cont{
+padding-bottom: 214rpx;
+
+}
+.imgas {
+  margin-right: 30rpx;
+}
+
+.imgas image {
+  width: 31.8rpx;
+  height: 19.7rpx;
+  /* border: 1px solid red; */
+}
+
+.color {
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-top: 1px solid #f5f5f5;
+  line-height: 80rpx;
+}
+
+.c1 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.color1 {
+  width: 750rpx;
+  height: 80rpx;
+  background: rgba(255, 255, 255, 1);
+  line-height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-top: 1px solid #f5f5f5;
+}
+
+.imgqs image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 30rpx;
+}
+
+.c2 {
+  font-size: 28rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: rgba(34, 34, 34, 1);
+  margin-right: 10rpx;
+}
+
+.imgks image {
+  width: 200rpx;
+  height: 80rpx;
+  margin-top: 40rpx;
+  margin-left: 275rpx;
+}
+
+.btn {
+  width: 690rpx;
+  height: 88rpx;
+  background: rgba(103, 148, 250, 1);
+  border-radius: 10rpx;
+  font-size: 34rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  line-height: 88rpx;
+  position: absolute;
+  bottom: 50rpx;
+  left: 30rpx;
+}

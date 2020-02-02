@@ -2,7 +2,7 @@
 
 .bgc {
   width: 750rpx;
-  height: 1334rpx;
+  height: 100%;
   overflow: hidden;
 }
 
